@@ -49,17 +49,20 @@ function y = f_analitycznie(N)
 endfunction
 
 function a = a_n(n)
-    a = 1/%pi*(integrate("(-t/%pi+1)*cos(n*t)", "t", 0, %pi) + integrate("(t/%pi-1)*cos(n*t)", "t", %pi, 2*%pi))
+    a = 1/%pi*(integrate("(-t/%pi+1)*cos(n*t)", "t", 0, %pi) + 
+    integrate("(t/%pi-1)*cos(n*t)", "t", %pi, 2*%pi))
 endfunction
 
 
 function b = b_n(n)
-    b = 1/%pi*(integrate("(-t/%pi+1)*sin(n*t)", "t", 0, %pi) + integrate("(t/%pi-1)*sin(n*t)", "t", %pi, 2*%pi))
+    b = 1/%pi*(integrate("(-t/%pi+1)*sin(n*t)", "t", 0, %pi) + 
+    integrate("(t/%pi-1)*sin(n*t)", "t", %pi, 2*%pi))
 endfunction
 
 
 function a0 = a_0(n)
-    a0 = 1/%pi*(integrate("(-t/%pi+1)", "t", 0, %pi) + integrate("(t/%pi-1)", "t", %pi, 2*%pi))
+    a0 = 1/%pi*(integrate("(-t/%pi+1)", "t", 0, %pi) + 
+    integrate("(t/%pi-1)", "t", %pi, 2*%pi))
 endfunction
 
 function y = f_numerycznie(N)
