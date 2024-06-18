@@ -1,0 +1,8 @@
+Prawdziwe: 
+- Fltorwanie to mnożenie WIDM / SPLOT sygnałów
+- Uklady LTI przetwarzaja syganly wykorzystujac sygnal zwany odpowiedzia impulsowa a operacja ta jest nazywana SPLOTEM dwoch sygnalow, czyli FILTRACJA
+- Przy projektowaniu filtrow metoda "zer i biegunow" kazde ZERO transmitancji powoduje ZWIEKSZENIE nachylenia charakterystyki amplitudowej o 20 decybeli na sekudne
+- BIEGUN powoduje ZMNIEJSZENIE
+- Rozszerzenie pasma widma sygnalu powoduje jego SZYBSZY przebieg w dziedzinie czasu
+- Transformacja Fouriera ZACHOWUJE energie sygnalu
+- Szereg Fouriera pozwala rozlozyc funkcje OKRESOWA spelniajaca warunki Dirichleta na sume funkcji trygonoemtrycznych
